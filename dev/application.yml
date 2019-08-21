@@ -34,7 +34,7 @@ logging:
 
 spring:
    application:
-     name: HELLO-SERVICE
+     name: PRAVEEN-RESTFUL-SERVICE
 
    jpa:
      show-sql: true 
