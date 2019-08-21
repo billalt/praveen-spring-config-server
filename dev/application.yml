@@ -32,7 +32,7 @@ logging:
 
 spring:
    application:
-     name: PRAVEEN-RESTFUL-SERVICE
+     name: PRAVEEN-RESTFUL-SERVICE1
 
    jpa:
      show-sql: true 
