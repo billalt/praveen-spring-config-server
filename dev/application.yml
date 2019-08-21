@@ -32,7 +32,7 @@ logging:
 
 spring:
    application:
-     name: PRAVEEN-RESTFUL-SERVICE
+     name: PRAVEEN-RESTFUL-SERVICE5
 
    jpa:
      show-sql: true 
@@ -41,7 +41,7 @@ spring:
    datasource :
           type: com.zaxxer.hikari.HikariDataSource
           driver-class-name: com.mysql.jdbc.Driver #org.hsqldb.jdbc.JDBCDriver
-          url: jdbc:mysql://localhost/PRAVEEN-RESTFUL-SERVICE?autoreconnect=true #jdbc:hsqldb:hsql://localhost/testdb
+          url: 
           username: 
           password:
           hikari:
