@@ -1,0 +1,7 @@
+{  
+  "git":{  
+    "uri":"https://github.com/praveenoruganti/praveen-spring-config-server.git",
+    "label":"master",
+    "searchPaths":"dev"
+  }
+}
