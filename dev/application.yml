@@ -9,6 +9,8 @@ eureka:
 
 management:
   endpoint:
+    refresh:
+      enabled: true
     health:
       show-details: always 
   endpoints: 
@@ -32,7 +34,7 @@ logging:
 
 spring:
    application:
-     name: PRAVEEN-RESTFUL-SERVICE5
+     name: PRAVEEN-RESTFUL-SERVICE
 
    jpa:
      show-sql: true 
@@ -41,7 +43,7 @@ spring:
    datasource :
           type: com.zaxxer.hikari.HikariDataSource
           driver-class-name: com.mysql.jdbc.Driver #org.hsqldb.jdbc.JDBCDriver
-          url: 
+          url: jdbc:mysql://localhost/PRAVEEN-RESTFUL-SERVICE?autoreconnect=true #jdbc:hsqldb:hsql://localhost/testdb
           username: 
           password:
           hikari:
@@ -59,7 +61,5 @@ info:
    java:
     version: "@java.version@"
   
-  
 
-  
    
