@@ -34,7 +34,7 @@ logging:
 
 spring:
    application:
-     name: SAMPLE-SERVICE
+     name: PRAVEEN-RESTFUL-SERVICE
 
    jpa:
      show-sql: true 
@@ -60,6 +60,3 @@ info:
    encoding: "@project.build.sourceEncoding@"
    java:
     version: "@java.version@"
-  
-
-   
