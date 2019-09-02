@@ -42,7 +42,7 @@ spring:
      generate-ddl: true
    datasource :
           type: com.zaxxer.hikari.HikariDataSource
-          driver-class-name: com.mysql.jdbc.Driver #org.hsqldb.jdbc.JDBCDriver
+          driver-class-name: com.mysql.cj.jdbc.Driver #org.hsqldb.jdbc.JDBCDriver
           url: jdbc:mysql://localhost/PRAVEEN-USER-MANAGEMENT-SERVICE?autoreconnect=true #jdbc:hsqldb:hsql://localhost/testdb
           username: 
           password:
@@ -60,6 +60,3 @@ info:
    encoding: "@project.build.sourceEncoding@"
    java:
     version: "@java.version@"
-  
-
-   
