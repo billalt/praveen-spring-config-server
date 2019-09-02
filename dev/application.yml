@@ -1,12 +1,4 @@
-eureka:
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: https://eureka-d6126bfd-a796-4db5-8984-fc2175be8af3.cfapps.io
-  instance:
-    hostname: localhost
-
+---
 management:
   endpoint:
     refresh:
