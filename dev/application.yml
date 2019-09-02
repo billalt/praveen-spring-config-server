@@ -3,7 +3,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: https://eureka-d6126bfd-a796-4db5-8984-fc2175be8af3.cfapps.io
   instance:
     hostname: localhost
 
@@ -34,7 +34,7 @@ logging:
 
 spring:
    application:
-     name: PRAVEEN-RESTFUL-SERVICE
+     name: PRAVEEN-USER-MANAGEMENT-SERVICE
 
    jpa:
      show-sql: true 
@@ -43,7 +43,7 @@ spring:
    datasource :
           type: com.zaxxer.hikari.HikariDataSource
           driver-class-name: com.mysql.jdbc.Driver #org.hsqldb.jdbc.JDBCDriver
-          url: jdbc:mysql://localhost/PRAVEEN-RESTFUL-SERVICE?autoreconnect=true #jdbc:hsqldb:hsql://localhost/testdb
+          url: jdbc:mysql://localhost/PRAVEEN-USER-MANAGEMENT-SERVICE?autoreconnect=true #jdbc:hsqldb:hsql://localhost/testdb
           username: 
           password:
           hikari:
@@ -60,3 +60,6 @@ info:
    encoding: "@project.build.sourceEncoding@"
    java:
     version: "@java.version@"
+  
+
+   
