@@ -26,7 +26,7 @@ logging:
 
 spring:
    application:
-     name: PRAVEEN-USER-MANAGEMENT-SERVICE
+     name: HELLO-SERVICE
 
    jpa:
      show-sql: true 
