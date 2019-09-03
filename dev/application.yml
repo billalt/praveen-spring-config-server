@@ -44,11 +44,22 @@ spring:
             maxLifetime : 1800000
             maximumPoolSize : 5
             
+   rabbitmq:
+    host: orangutan.rmq.cloudamqp.com
+    port: 5672
+    username: cuorvmqg
+    password: LR7A73-8bydesk5Pp2U6Ad7mEEKtMeHX
+    
+
+
 info:
   app:
-   name: "@project.name@"
-   description: "@project.description@"
-   version: "@project.version@"
-   encoding: "@project.build.sourceEncoding@"
+   name: "praveen-user-management-service"
+   description: "Praveen User Management Service"
+   version: "1.0"
+   encoding: "UTF-8"
    java:
-    version: "@java.version@"
+    version: "1.8"
+  
+
+   
