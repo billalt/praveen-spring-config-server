@@ -37,7 +37,14 @@ spring:
    application:
      name: PRAVEEN-USER-MANAGEMENT-SERVICE
    profiles:
-    active: dev    
+    active: dev   
+   cloud:
+    discovery:
+     enabled: false 
+    service-registry:
+      auto-registration:
+        enabled: false
+        
 
    jpa:
      show-sql: true 
@@ -45,7 +52,7 @@ spring:
      generate-ddl: true
    datasource :
           type: com.zaxxer.hikari.HikariDataSource
-          driver-class-name: com.mysql.cj.jdbc.Driver #org.hsqldb.jdbc.JDBCDriver
+          driver-class-name: com.mysql.cj.jdbc.Driver
           url: jdbc:mysql://root:password@localhost:3306/praveendb?reconnect=true
           username: root
           password: password
@@ -56,11 +63,10 @@ spring:
             maximumPoolSize : 5
             
    rabbitmq:
-    host: orangutan.rmq.cloudamqp.com
+    host: localhost
     port: 5672
-    username: cuorvmqg
-    password: LR7A73-8bydesk5Pp2U6Ad7mEEKtMeHX
- 
+    username: guest
+    password: guest
 
 praveen-user-management-service:
           rabbitmq:
