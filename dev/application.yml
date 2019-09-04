@@ -44,7 +44,7 @@ spring:
    datasource :
           type: com.zaxxer.hikari.HikariDataSource
           driver-class-name: com.mysql.cj.jdbc.Driver #org.hsqldb.jdbc.JDBCDriver
-          url: jdbc:mysql://localhost/PRAVEEN-USER-MANAGEMENT-SERVICE?autoreconnect=true #jdbc:hsqldb:hsql://localhost/testdb
+          url: jdbc:mysql://b632a0024b63e7:5f3004aed14ada9@us-cdbr-iron-east-02.cleardb.net:3306/ad_0173b1a73afa202?reconnect=true #jdbc:hsqldb:hsql://localhost/testdb
           username: 
           password:
           hikari:
