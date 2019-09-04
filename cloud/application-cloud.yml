@@ -36,6 +36,8 @@ info:
 spring:
    application:
      name: PRAVEEN-USER-MANAGEMENT-SERVICE
+   profiles:
+    active: dev
 
    jpa:
      show-sql: true 
@@ -63,4 +65,4 @@ spring:
 praveen-user-management-service:
           rabbitmq:
             queueName: praveenmq
-            topicExchange: praveenexchange
+            topicExchange: praveenexchange     
