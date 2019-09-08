@@ -52,6 +52,8 @@ spring:
    cloud:
     config:
      uri: http://localhost:8888
+     username: guest
+     password: guest
    
    jpa:
      show-sql: true 
