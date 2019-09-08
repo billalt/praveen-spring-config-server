@@ -37,7 +37,7 @@ logging:
 
 info:
   app:
-   name: "praveen-user-management-service1"
+   name: "praveen-user-management-service"
    description: "Praveen User Management Service"
    version: "1.0"
    encoding: "UTF-8"
