@@ -1,4 +1,13 @@
 ---
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+ 
 management:
   endpoint:
     refresh:
@@ -37,16 +46,13 @@ info:
 
 spring:
    application:
-     name: PRAVEEN-USER-MANAGEMENT-SERVICE
+     name: praveen-user-management-service
    profiles:
     active: dev   
    cloud:
-    discovery:
-     enabled: false 
-    service-registry:
-      auto-registration:
-        enabled: false
- 
+    config:
+     uri: http://localhost:8888
+   
    jpa:
      show-sql: true 
      database: MYSQL
