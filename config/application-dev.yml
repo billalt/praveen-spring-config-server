@@ -50,9 +50,12 @@ spring:
    profiles:
     active: dev   
    cloud:
-    config:
-     enabled: true
+    config:     
      uri: http://localhost:8888
+   security:
+    user:
+      name: praveen
+      password: pcf
      
 
    
